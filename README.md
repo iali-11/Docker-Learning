@@ -7,6 +7,9 @@ The project demonstrates how to run a Flask web application backed by a Redis da
 ## What This Project Covers
 
 This project showcases core containerisation and DevOps concepts, including:
+- Two routes to the application:
+   -  / = displays a welcome message
+   - /𝗰𝗼𝘂𝗻𝘁 = increments and displays a visit count stored in Redis
 - Docker fundamentals (images, containers, Dockerfiles)
 - Multi-container applications with Docker Compose
 - Service-to-service communication using Docker networking 
